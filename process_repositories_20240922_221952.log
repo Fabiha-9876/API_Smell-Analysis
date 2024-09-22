@@ -1,0 +1,185 @@
+2024-09-22 22:19:52,390 - INFO - === Starting Processing of Java Repositories ===
+2024-09-22 22:19:52,394 - INFO - Created output base directory: E:\Nagad_API\Summary_of_code_smell
+2024-09-22 22:19:52,401 - INFO - Found 5 repositories in E:\Nagad_API\KSL Codebase
+2024-09-22 22:19:52,401 - INFO - Processing repositories sequentially.
+2024-09-22 22:19:52,406 - INFO - Created output directory: E:\Nagad_API\Summary_of_code_smell\auto-lifting
+2024-09-22 22:19:52,408 - INFO - Processing repository: auto-lifting
+2024-09-22 22:19:52,409 - INFO - Executing command: java -jar E:\DesigniteJava\DesigniteJava.jar -i E:\Nagad_API\KSL Codebase\auto-lifting -o E:\Nagad_API\Summary_of_code_smell\auto-lifting
+2024-09-22 22:20:05,450 - INFO - Successfully processed: auto-lifting
+2024-09-22 22:20:05,450 - INFO - Created output directory: E:\Nagad_API\Summary_of_code_smell\bankintegration
+2024-09-22 22:20:05,450 - INFO - Processing repository: bankintegration
+2024-09-22 22:20:05,458 - INFO - Executing command: java -jar E:\DesigniteJava\DesigniteJava.jar -i E:\Nagad_API\KSL Codebase\bankintegration -o E:\Nagad_API\Summary_of_code_smell\bankintegration
+2024-09-22 22:20:16,451 - INFO - Successfully processed: bankintegration
+2024-09-22 22:20:16,455 - INFO - Created output directory: E:\Nagad_API\Summary_of_code_smell\billpayKSL
+2024-09-22 22:20:16,459 - INFO - Processing repository: billpayKSL
+2024-09-22 22:20:16,461 - INFO - Executing command: java -jar E:\DesigniteJava\DesigniteJava.jar -i E:\Nagad_API\KSL Codebase\billpayKSL -o E:\Nagad_API\Summary_of_code_smell\billpayKSL
+2024-09-22 22:20:25,002 - INFO - Successfully processed: billpayKSL
+2024-09-22 22:20:25,012 - INFO - Created output directory: E:\Nagad_API\Summary_of_code_smell\mfi
+2024-09-22 22:20:25,012 - INFO - Processing repository: mfi
+2024-09-22 22:20:25,019 - INFO - Executing command: java -jar E:\DesigniteJava\DesigniteJava.jar -i E:\Nagad_API\KSL Codebase\mfi -o E:\Nagad_API\Summary_of_code_smell\mfi
+2024-09-22 22:20:34,995 - INFO - Successfully processed: mfi
+2024-09-22 22:20:34,998 - INFO - Created output directory: E:\Nagad_API\Summary_of_code_smell\onlinepay
+2024-09-22 22:20:34,999 - INFO - Processing repository: onlinepay
+2024-09-22 22:20:35,002 - INFO - Executing command: java -jar E:\DesigniteJava\DesigniteJava.jar -i E:\Nagad_API\KSL Codebase\onlinepay -o E:\Nagad_API\Summary_of_code_smell\onlinepay
+2024-09-22 22:20:44,683 - INFO - Successfully processed: onlinepay
+2024-09-22 22:20:44,683 - INFO - === All repositories have been processed. ===
+2024-09-22 22:30:16,699 - INFO - === Starting Merge of All Smells ===
+2024-09-22 22:30:16,705 - INFO - Found ArchitectureSmells.csv: E:\Nagad_API\Summary_of_code_smell\auto-lifting\ArchitectureSmells.csv
+2024-09-22 22:30:16,709 - INFO - Found DesignSmells.csv: E:\Nagad_API\Summary_of_code_smell\auto-lifting\DesignSmells.csv
+2024-09-22 22:30:16,709 - INFO - Found ImplementationSmells.csv: E:\Nagad_API\Summary_of_code_smell\auto-lifting\ImplementationSmells.csv
+2024-09-22 22:30:16,713 - INFO - Found TestabilitySmells.csv: E:\Nagad_API\Summary_of_code_smell\auto-lifting\TestabilitySmells.csv
+2024-09-22 22:30:16,716 - INFO - Found TestSmells.csv: E:\Nagad_API\Summary_of_code_smell\auto-lifting\TestSmells.csv
+2024-09-22 22:30:16,719 - INFO - Found ArchitectureSmells.csv: E:\Nagad_API\Summary_of_code_smell\bankintegration\ArchitectureSmells.csv
+2024-09-22 22:30:16,721 - INFO - Found DesignSmells.csv: E:\Nagad_API\Summary_of_code_smell\bankintegration\DesignSmells.csv
+2024-09-22 22:30:16,723 - INFO - Found ImplementationSmells.csv: E:\Nagad_API\Summary_of_code_smell\bankintegration\ImplementationSmells.csv
+2024-09-22 22:30:16,723 - INFO - Found TestabilitySmells.csv: E:\Nagad_API\Summary_of_code_smell\bankintegration\TestabilitySmells.csv
+2024-09-22 22:30:16,731 - INFO - Found TestSmells.csv: E:\Nagad_API\Summary_of_code_smell\bankintegration\TestSmells.csv
+2024-09-22 22:30:16,731 - INFO - Found ArchitectureSmells.csv: E:\Nagad_API\Summary_of_code_smell\billpayKSL\ArchitectureSmells.csv
+2024-09-22 22:30:16,731 - INFO - Found DesignSmells.csv: E:\Nagad_API\Summary_of_code_smell\billpayKSL\DesignSmells.csv
+2024-09-22 22:30:16,743 - INFO - Found ImplementationSmells.csv: E:\Nagad_API\Summary_of_code_smell\billpayKSL\ImplementationSmells.csv
+2024-09-22 22:30:16,745 - INFO - Found TestabilitySmells.csv: E:\Nagad_API\Summary_of_code_smell\billpayKSL\TestabilitySmells.csv
+2024-09-22 22:30:16,749 - INFO - Found TestSmells.csv: E:\Nagad_API\Summary_of_code_smell\billpayKSL\TestSmells.csv
+2024-09-22 22:30:16,753 - INFO - Found ArchitectureSmells.csv: E:\Nagad_API\Summary_of_code_smell\mfi\ArchitectureSmells.csv
+2024-09-22 22:30:16,756 - INFO - Found DesignSmells.csv: E:\Nagad_API\Summary_of_code_smell\mfi\DesignSmells.csv
+2024-09-22 22:30:16,756 - INFO - Found ImplementationSmells.csv: E:\Nagad_API\Summary_of_code_smell\mfi\ImplementationSmells.csv
+2024-09-22 22:30:16,764 - INFO - Found TestabilitySmells.csv: E:\Nagad_API\Summary_of_code_smell\mfi\TestabilitySmells.csv
+2024-09-22 22:30:16,767 - INFO - Found TestSmells.csv: E:\Nagad_API\Summary_of_code_smell\mfi\TestSmells.csv
+2024-09-22 22:30:16,770 - INFO - Found ArchitectureSmells.csv: E:\Nagad_API\Summary_of_code_smell\onlinepay\ArchitectureSmells.csv
+2024-09-22 22:30:16,773 - INFO - Found DesignSmells.csv: E:\Nagad_API\Summary_of_code_smell\onlinepay\DesignSmells.csv
+2024-09-22 22:30:16,775 - INFO - Found ImplementationSmells.csv: E:\Nagad_API\Summary_of_code_smell\onlinepay\ImplementationSmells.csv
+2024-09-22 22:30:16,777 - INFO - Found TestabilitySmells.csv: E:\Nagad_API\Summary_of_code_smell\onlinepay\TestabilitySmells.csv
+2024-09-22 22:30:16,781 - INFO - Found TestSmells.csv: E:\Nagad_API\Summary_of_code_smell\onlinepay\TestSmells.csv
+2024-09-22 22:30:16,781 - INFO - Total ArchitectureSmells.csv files found: 5
+2024-09-22 22:30:16,781 - INFO - Total DesignSmells.csv files found: 5
+2024-09-22 22:30:16,786 - INFO - Total ImplementationSmells.csv files found: 5
+2024-09-22 22:30:16,788 - INFO - Total TestabilitySmells.csv files found: 5
+2024-09-22 22:30:16,791 - INFO - Total TestSmells.csv files found: 5
+2024-09-22 22:30:16,821 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\auto-lifting\ArchitectureSmells.csv
+2024-09-22 22:30:16,829 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\bankintegration\ArchitectureSmells.csv
+2024-09-22 22:30:16,834 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\billpayKSL\ArchitectureSmells.csv
+2024-09-22 22:30:16,841 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\mfi\ArchitectureSmells.csv
+2024-09-22 22:30:16,847 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\onlinepay\ArchitectureSmells.csv
+2024-09-22 22:30:16,847 - INFO - Merged 5 ArchitectureSmells.csv files into one DataFrame.
+2024-09-22 22:30:16,854 - INFO - Saved merged Architecture smells to: E:\Nagad_API\Merged_Summary_Analysis\Architecture_smells.csv
+2024-09-22 22:30:18,582 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\auto-lifting\DesignSmells.csv
+2024-09-22 22:30:18,627 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\bankintegration\DesignSmells.csv
+2024-09-22 22:30:18,657 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\billpayKSL\DesignSmells.csv
+2024-09-22 22:30:18,682 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\mfi\DesignSmells.csv
+2024-09-22 22:30:18,711 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\onlinepay\DesignSmells.csv
+2024-09-22 22:30:18,714 - INFO - Merged 5 DesignSmells.csv files into one DataFrame.
+2024-09-22 22:30:18,722 - INFO - Saved merged Design smells to: E:\Nagad_API\Merged_Summary_Analysis\Design_smells.csv
+2024-09-22 22:30:18,749 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\auto-lifting\ImplementationSmells.csv
+2024-09-22 22:30:18,779 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\bankintegration\ImplementationSmells.csv
+2024-09-22 22:30:18,800 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\billpayKSL\ImplementationSmells.csv
+2024-09-22 22:30:18,837 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\mfi\ImplementationSmells.csv
+2024-09-22 22:30:18,865 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\onlinepay\ImplementationSmells.csv
+2024-09-22 22:30:18,867 - INFO - Merged 5 ImplementationSmells.csv files into one DataFrame.
+2024-09-22 22:30:18,882 - INFO - Saved merged Implementation smells to: E:\Nagad_API\Merged_Summary_Analysis\Implementation_smells.csv
+2024-09-22 22:30:18,894 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\auto-lifting\TestabilitySmells.csv
+2024-09-22 22:30:18,900 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\bankintegration\TestabilitySmells.csv
+2024-09-22 22:30:18,907 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\billpayKSL\TestabilitySmells.csv
+2024-09-22 22:30:18,919 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\mfi\TestabilitySmells.csv
+2024-09-22 22:30:18,927 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\onlinepay\TestabilitySmells.csv
+2024-09-22 22:30:18,932 - INFO - Merged 5 TestabilitySmells.csv files into one DataFrame.
+2024-09-22 22:30:18,939 - INFO - Saved merged Testability smells to: E:\Nagad_API\Merged_Summary_Analysis\Testabilty_smells.csv
+2024-09-22 22:30:18,947 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\auto-lifting\TestSmells.csv
+2024-09-22 22:30:18,954 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\bankintegration\TestSmells.csv
+2024-09-22 22:30:18,960 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\billpayKSL\TestSmells.csv
+2024-09-22 22:30:18,968 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\mfi\TestSmells.csv
+2024-09-22 22:30:18,981 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\onlinepay\TestSmells.csv
+2024-09-22 22:30:18,984 - INFO - Merged 5 TestSmells.csv files into one DataFrame.
+2024-09-22 22:30:19,009 - INFO - Saved merged Test smells to: E:\Nagad_API\Merged_Summary_Analysis\Test_smells.csv
+2024-09-22 22:30:19,009 - INFO - === Completed Merging of Smells ===
+2024-09-22 22:31:49,848 - INFO - === Starting Processing of Java Repositories ===
+2024-09-22 22:31:49,954 - INFO - Created output base directory: E:\Nagad_API\Summary_of_code_smell
+2024-09-22 22:31:49,971 - INFO - Found 5 repositories in E:\Nagad_API\KSL Codebase
+2024-09-22 22:31:49,973 - INFO - Processing repositories sequentially.
+2024-09-22 22:31:49,979 - INFO - Created output directory: E:\Nagad_API\Summary_of_code_smell\auto-lifting
+2024-09-22 22:31:49,979 - INFO - Processing repository: auto-lifting
+2024-09-22 22:31:49,988 - INFO - Executing command: java -jar E:\DesigniteJava\DesigniteJava.jar -i E:\Nagad_API\KSL Codebase\auto-lifting -o E:\Nagad_API\Summary_of_code_smell\auto-lifting
+2024-09-22 22:32:02,843 - INFO - Successfully processed: auto-lifting
+2024-09-22 22:32:02,847 - INFO - Created output directory: E:\Nagad_API\Summary_of_code_smell\bankintegration
+2024-09-22 22:32:02,852 - INFO - Processing repository: bankintegration
+2024-09-22 22:32:02,856 - INFO - Executing command: java -jar E:\DesigniteJava\DesigniteJava.jar -i E:\Nagad_API\KSL Codebase\bankintegration -o E:\Nagad_API\Summary_of_code_smell\bankintegration
+2024-09-22 22:32:14,679 - INFO - Successfully processed: bankintegration
+2024-09-22 22:32:14,684 - INFO - Created output directory: E:\Nagad_API\Summary_of_code_smell\billpayKSL
+2024-09-22 22:32:14,684 - INFO - Processing repository: billpayKSL
+2024-09-22 22:32:14,691 - INFO - Executing command: java -jar E:\DesigniteJava\DesigniteJava.jar -i E:\Nagad_API\KSL Codebase\billpayKSL -o E:\Nagad_API\Summary_of_code_smell\billpayKSL
+2024-09-22 22:32:26,154 - INFO - Successfully processed: billpayKSL
+2024-09-22 22:32:26,156 - INFO - Created output directory: E:\Nagad_API\Summary_of_code_smell\mfi
+2024-09-22 22:32:26,162 - INFO - Processing repository: mfi
+2024-09-22 22:32:26,166 - INFO - Executing command: java -jar E:\DesigniteJava\DesigniteJava.jar -i E:\Nagad_API\KSL Codebase\mfi -o E:\Nagad_API\Summary_of_code_smell\mfi
+2024-09-22 22:32:37,474 - INFO - Successfully processed: mfi
+2024-09-22 22:32:37,474 - INFO - Created output directory: E:\Nagad_API\Summary_of_code_smell\onlinepay
+2024-09-22 22:32:37,480 - INFO - Processing repository: onlinepay
+2024-09-22 22:32:37,480 - INFO - Executing command: java -jar E:\DesigniteJava\DesigniteJava.jar -i E:\Nagad_API\KSL Codebase\onlinepay -o E:\Nagad_API\Summary_of_code_smell\onlinepay
+2024-09-22 22:32:48,305 - INFO - Successfully processed: onlinepay
+2024-09-22 22:32:48,308 - INFO - === All repositories have been processed. ===
+2024-09-22 22:32:48,489 - INFO - === Starting Merge of All Smells ===
+2024-09-22 22:32:48,497 - INFO - Created output base directory: E:\Nagad_API\Merged_Summary_Analysis
+2024-09-22 22:32:48,505 - INFO - Found ArchitectureSmells.csv: E:\Nagad_API\Summary_of_code_smell\auto-lifting\ArchitectureSmells.csv
+2024-09-22 22:32:48,505 - INFO - Found DesignSmells.csv: E:\Nagad_API\Summary_of_code_smell\auto-lifting\DesignSmells.csv
+2024-09-22 22:32:48,505 - INFO - Found ImplementationSmells.csv: E:\Nagad_API\Summary_of_code_smell\auto-lifting\ImplementationSmells.csv
+2024-09-22 22:32:48,505 - INFO - Found TestabilitySmells.csv: E:\Nagad_API\Summary_of_code_smell\auto-lifting\TestabilitySmells.csv
+2024-09-22 22:32:48,513 - INFO - Found TestSmells.csv: E:\Nagad_API\Summary_of_code_smell\auto-lifting\TestSmells.csv
+2024-09-22 22:32:48,513 - INFO - Found ArchitectureSmells.csv: E:\Nagad_API\Summary_of_code_smell\bankintegration\ArchitectureSmells.csv
+2024-09-22 22:32:48,521 - INFO - Found DesignSmells.csv: E:\Nagad_API\Summary_of_code_smell\bankintegration\DesignSmells.csv
+2024-09-22 22:32:48,521 - INFO - Found ImplementationSmells.csv: E:\Nagad_API\Summary_of_code_smell\bankintegration\ImplementationSmells.csv
+2024-09-22 22:32:48,521 - INFO - Found TestabilitySmells.csv: E:\Nagad_API\Summary_of_code_smell\bankintegration\TestabilitySmells.csv
+2024-09-22 22:32:48,532 - INFO - Found TestSmells.csv: E:\Nagad_API\Summary_of_code_smell\bankintegration\TestSmells.csv
+2024-09-22 22:32:48,535 - INFO - Found ArchitectureSmells.csv: E:\Nagad_API\Summary_of_code_smell\billpayKSL\ArchitectureSmells.csv
+2024-09-22 22:32:48,538 - INFO - Found DesignSmells.csv: E:\Nagad_API\Summary_of_code_smell\billpayKSL\DesignSmells.csv
+2024-09-22 22:32:48,538 - INFO - Found ImplementationSmells.csv: E:\Nagad_API\Summary_of_code_smell\billpayKSL\ImplementationSmells.csv
+2024-09-22 22:32:48,538 - INFO - Found TestabilitySmells.csv: E:\Nagad_API\Summary_of_code_smell\billpayKSL\TestabilitySmells.csv
+2024-09-22 22:32:48,548 - INFO - Found TestSmells.csv: E:\Nagad_API\Summary_of_code_smell\billpayKSL\TestSmells.csv
+2024-09-22 22:32:48,548 - INFO - Found ArchitectureSmells.csv: E:\Nagad_API\Summary_of_code_smell\mfi\ArchitectureSmells.csv
+2024-09-22 22:32:48,554 - INFO - Found DesignSmells.csv: E:\Nagad_API\Summary_of_code_smell\mfi\DesignSmells.csv
+2024-09-22 22:32:48,554 - INFO - Found ImplementationSmells.csv: E:\Nagad_API\Summary_of_code_smell\mfi\ImplementationSmells.csv
+2024-09-22 22:32:48,562 - INFO - Found TestabilitySmells.csv: E:\Nagad_API\Summary_of_code_smell\mfi\TestabilitySmells.csv
+2024-09-22 22:32:48,564 - INFO - Found TestSmells.csv: E:\Nagad_API\Summary_of_code_smell\mfi\TestSmells.csv
+2024-09-22 22:32:48,566 - INFO - Found ArchitectureSmells.csv: E:\Nagad_API\Summary_of_code_smell\onlinepay\ArchitectureSmells.csv
+2024-09-22 22:32:48,570 - INFO - Found DesignSmells.csv: E:\Nagad_API\Summary_of_code_smell\onlinepay\DesignSmells.csv
+2024-09-22 22:32:48,570 - INFO - Found ImplementationSmells.csv: E:\Nagad_API\Summary_of_code_smell\onlinepay\ImplementationSmells.csv
+2024-09-22 22:32:48,570 - INFO - Found TestabilitySmells.csv: E:\Nagad_API\Summary_of_code_smell\onlinepay\TestabilitySmells.csv
+2024-09-22 22:32:48,578 - INFO - Found TestSmells.csv: E:\Nagad_API\Summary_of_code_smell\onlinepay\TestSmells.csv
+2024-09-22 22:32:48,579 - INFO - Total ArchitectureSmells.csv files found: 5
+2024-09-22 22:32:48,583 - INFO - Total DesignSmells.csv files found: 5
+2024-09-22 22:32:48,585 - INFO - Total ImplementationSmells.csv files found: 5
+2024-09-22 22:32:48,586 - INFO - Total TestabilitySmells.csv files found: 5
+2024-09-22 22:32:48,586 - INFO - Total TestSmells.csv files found: 5
+2024-09-22 22:32:48,618 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\auto-lifting\ArchitectureSmells.csv
+2024-09-22 22:32:48,627 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\bankintegration\ArchitectureSmells.csv
+2024-09-22 22:32:48,638 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\billpayKSL\ArchitectureSmells.csv
+2024-09-22 22:32:48,643 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\mfi\ArchitectureSmells.csv
+2024-09-22 22:32:48,653 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\onlinepay\ArchitectureSmells.csv
+2024-09-22 22:32:48,660 - INFO - Merged 5 ArchitectureSmells.csv files into one DataFrame.
+2024-09-22 22:32:48,660 - INFO - Saved merged Architecture smells to: E:\Nagad_API\Merged_Summary_Analysis\Architecture_smells.csv
+2024-09-22 22:32:48,684 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\auto-lifting\DesignSmells.csv
+2024-09-22 22:32:48,709 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\bankintegration\DesignSmells.csv
+2024-09-22 22:32:48,725 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\billpayKSL\DesignSmells.csv
+2024-09-22 22:32:48,741 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\mfi\DesignSmells.csv
+2024-09-22 22:32:48,758 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\onlinepay\DesignSmells.csv
+2024-09-22 22:32:48,758 - INFO - Merged 5 DesignSmells.csv files into one DataFrame.
+2024-09-22 22:32:48,791 - INFO - Saved merged Design smells to: E:\Nagad_API\Merged_Summary_Analysis\Design_smells.csv
+2024-09-22 22:32:48,815 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\auto-lifting\ImplementationSmells.csv
+2024-09-22 22:32:48,840 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\bankintegration\ImplementationSmells.csv
+2024-09-22 22:32:48,857 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\billpayKSL\ImplementationSmells.csv
+2024-09-22 22:32:48,889 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\mfi\ImplementationSmells.csv
+2024-09-22 22:32:48,931 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\onlinepay\ImplementationSmells.csv
+2024-09-22 22:32:48,938 - INFO - Merged 5 ImplementationSmells.csv files into one DataFrame.
+2024-09-22 22:32:48,972 - INFO - Saved merged Implementation smells to: E:\Nagad_API\Merged_Summary_Analysis\Implementation_smells.csv
+2024-09-22 22:32:48,988 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\auto-lifting\TestabilitySmells.csv
+2024-09-22 22:32:48,996 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\bankintegration\TestabilitySmells.csv
+2024-09-22 22:32:49,004 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\billpayKSL\TestabilitySmells.csv
+2024-09-22 22:32:49,012 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\mfi\TestabilitySmells.csv
+2024-09-22 22:32:49,018 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\onlinepay\TestabilitySmells.csv
+2024-09-22 22:32:49,020 - INFO - Merged 5 TestabilitySmells.csv files into one DataFrame.
+2024-09-22 22:32:49,020 - INFO - Saved merged Testability smells to: E:\Nagad_API\Merged_Summary_Analysis\Testabilty_smells.csv
+2024-09-22 22:32:49,035 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\auto-lifting\TestSmells.csv
+2024-09-22 22:32:49,039 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\bankintegration\TestSmells.csv
+2024-09-22 22:32:49,053 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\billpayKSL\TestSmells.csv
+2024-09-22 22:32:49,061 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\mfi\TestSmells.csv
+2024-09-22 22:32:49,070 - INFO - Successfully merged file: E:\Nagad_API\Summary_of_code_smell\onlinepay\TestSmells.csv
+2024-09-22 22:32:49,073 - INFO - Merged 5 TestSmells.csv files into one DataFrame.
+2024-09-22 22:32:49,078 - INFO - Saved merged Test smells to: E:\Nagad_API\Merged_Summary_Analysis\Test_smells.csv
+2024-09-22 22:32:49,078 - INFO - === Completed Merging of Smells ===
